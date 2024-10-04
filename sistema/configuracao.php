@@ -1,3 +1,3 @@
 <?php 
-echo "<p>Arquivo de configuração</p>";
+//echo "<p>Arquivo de configuração</p>";
 ?>

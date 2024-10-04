@@ -7,9 +7,22 @@
 </head>
 <body>	
 	<?php 
+	
 	require_once 'sistema/configuracao.php';
 	include_once 'funcoes.php';
-	echo "<h1>Arquivo index</h1>";
+
+	$texto = '<p>texto dentro de uma variável</p>';
+	$string = 'texto';
+	$int = 10;
+	$float = 9.8;
+	$bool = true;
+	$nulo = null;
+
+	//var_dump($texto);
+	
+	echo saudacao();
+	echo resumirTexto($texto, 50);
+
 	?>
 </body>
 </html>
